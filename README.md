@@ -1,8 +1,9 @@
 # Apollo GraphQL Space Explorer
 The tutorial app from Apollo GraphQL docs
 
-# Tools
+# 🔧 Tools
 - React
 - [Apollo GraphQL](https://github.com/apollographql)
 - GraphQL
 - TypeScript
+
