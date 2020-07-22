@@ -24,11 +24,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run start:server && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "run:ios-demo": "npx artillery run apollo-internal-demos/ios-workload.yml",
     "codegen": "apollo client:codegen --target typescript --watch"
+    "start:server": "nodemon ../server/src/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
